@@ -16,6 +16,8 @@ public class main {
 		dlist.delete("B");
 		dlist.addFirst(new DoubleNode(null, "T", null));
         dlist.delete("E");
+
+        dlist.addFirst(new DoubleNode(null,"X",null));
 		
 		System.out.println(dlist.toString());
 
